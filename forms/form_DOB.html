@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Date of Birth Validation Form</title>
+</head>
+<body>
+    <h2>Date of Birth Validation</h2>
+    
+    <form method="POST" action="">
+        <label>Enter your Date of Birth:</label><br>
+        <input type="date" 
+               name="dob" 
+               required 
+               min="1900-01-01" 
+               max="2016-12-31"
+               title="Please select a date between 1900 and 2016">
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <p>Note: Please select a valid date of birth between 1900 and 2016.</p>
+    <p>Format: DD/MM/YYYY</p>
+</body>
+</html> 
